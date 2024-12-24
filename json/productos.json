@@ -1,0 +1,170 @@
+[
+    {
+        "id": 1,
+        "nombre": "Samsung Fold 5",
+        "precio": "3.699.999",
+        "categoria": "celulares",
+        "cantidad": 1
+    },
+    {
+        "id": 2,
+        "nombre": "Samsung Galaxy A25",
+        "precio": "539.999",
+        "categoria": "celulares",
+        "cantidad": 1
+    },
+    {
+        "id": 3,
+        "nombre": "Moto G24 Power",
+        "precio": "429.795",
+        "categoria": "celulares",
+        "cantidad": 1
+    },
+    {
+        "id": 4,
+        "nombre": "Xiaomi Redmi 13C",
+        "precio": "299.855",
+        "categoria": "celulares",
+        "cantidad": 1
+    },
+    {
+        "id": 5,
+        "nombre": "Split RCA REL3300",
+        "precio": "789.999",
+        "categoria": "aires",
+        "cantidad": 1
+    },
+    {
+        "id": 6,
+        "nombre": "Split RCA FSV12TC",
+        "precio": "829.999",
+        "categoria": "aires",
+        "cantidad": 1
+    },
+    {
+        "id": 7,
+        "nombre": "Split Fedders",
+        "precio": "669.795",
+        "categoria": "aires",
+        "cantidad": 1
+    },
+    {
+        "id": 8,
+        "nombre": "Split Electra 4558FC",
+        "precio": "1.159.855",
+        "categoria": "aires",
+        "cantidad": 1
+    },
+    {
+        "id": 9,
+        "nombre": "Aspiradora Electrolux",
+        "precio": "279.999",
+        "categoria": "hogar",
+        "cantidad": 1
+    },
+    {
+        "id": 10,
+        "nombre": "Anafe Vitroceramico",
+        "precio": "69.999",
+        "categoria": "hogar",
+        "cantidad": 1
+    },
+    {
+        "id": 11,
+        "nombre": "Vitroconvector Yelmo",
+        "precio": "89.795",
+        "categoria": "hogar",
+        "cantidad": 1
+    },
+    {
+        "id": 12,
+        "nombre": "Caloventor Yelmo",
+        "precio": "29.855",
+        "categoria": "hogar",
+        "cantidad": 1
+    },
+    {
+        "id": 13,
+        "nombre": "Notebook Lenovo 14IGL05",
+        "precio": "649.999",
+        "categoria": "computacion",
+        "cantidad": 1
+    },
+    {
+        "id": 14,
+        "nombre": "Notebook Asus VivoBook",
+        "precio": "999.999",
+        "categoria": "computacion",
+        "cantidad": 1
+    },
+    {
+        "id": 15,
+        "nombre": "Notebook Samsung Book 3",
+        "precio": "3.711.795",
+        "categoria": "computacion",
+        "cantidad": 1
+    },
+    {
+        "id": 16,
+        "nombre": "Notebook Exo XR7",
+        "precio": "499.855",
+        "categoria": "computacion",
+        "cantidad": 1
+    },
+    {
+        "id": 17,
+        "nombre": "Smart TV Motorola 32",
+        "precio": "323.999",
+        "categoria": "smart tvs",
+        "cantidad": 1
+    },
+    {
+        "id": 18,
+        "nombre": "Smart TV RCA 32",
+        "precio": "314.999",
+        "categoria": "smart tvs",
+        "cantidad": 1
+    },
+    {
+        "id": 19,
+        "nombre": "Smart TV TCL 32",
+        "precio": "319.795",
+        "categoria": "smart tvs",
+        "cantidad": 1
+    },
+    {
+        "id": 20,
+        "nombre": "Smart TV CROWN 32",
+        "precio": "279.855",
+        "categoria": "smart tvs",
+        "cantidad": 1
+    },
+    {
+        "id": 21,
+        "nombre": "Lavarropas Samsung 9kg",
+        "precio": "1.263.999",
+        "categoria": "lavarropas",
+        "cantidad": 1
+    },
+    {
+        "id": 22,
+        "nombre": "Lavarropas Drean 6kg",
+        "precio": "759.999",
+        "categoria": "lavarropas",
+        "cantidad": 1
+    },
+    {
+        "id": 23,
+        "nombre": "Lavarropas Hisense 8kg",
+        "precio": "899.795",
+        "categoria": "lavarropas",
+        "cantidad": 1
+    },
+    {
+        "id": 24,
+        "nombre": "Lavarropas Hisense 6kg",
+        "precio": "759.855",
+        "categoria": "lavarropas",
+        "cantidad": 1
+    }
+]

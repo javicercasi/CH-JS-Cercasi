@@ -1,0 +1,147 @@
+@charset "UTF-8";
+/* Estilos compartidos por más de un archivo */
+.body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  background-image: 
+  linear-gradient(to bottom, rgba(29, 79, 112, 0.498), rgba(255, 255, 255, 0.867)),
+  url("../images/fondos/index-fondo.png"); /* Asegúrate de ajustar la ruta de la imagen */  
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+#main {
+  min-height: 84vh;
+}
+
+section {
+  background-color: rgba(248, 248, 248, 0.683); /* Fondo claro */
+  padding: 25px;
+  border-radius: 8px; /* Bordes redondeados */
+  margin: 20px auto;
+  max-width: 85%; /* Ancho máximo de la sección */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.548);
+}
+
+h1, h2 {
+  color: #0056b3;
+  font-weight: bold;
+}
+
+/* Estilos para el header */
+/* Ajustar el tamaño de las palabras del menú de navegación */
+.nav-link {
+  color: #bfbfbf;
+  font-size: 1.1rem;
+}
+.nav-link:hover {
+  color: #ce9907 !important;
+}
+
+.logo {
+  max-height: 60px; /* Ajusta el tamaño del logo */
+}
+
+/* Estilos para el footer */
+.footer-custom {
+  background-color: rgba(248, 248, 248, 0.431372549); /* Fondo claro */
+}
+
+.card-inicio {
+  background-color: rgba(124, 128, 138, 0.663);
+  padding: 4%;
+  border: #242c38;
+  font-size: 1.2em;
+  border-radius: 8px;
+  margin: 0 auto;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.card-inicio:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.welcome-section {
+  background-color: rgba(248, 248, 248, 0.6274509804); /* Mantén el fondo claro */
+  padding: 40px; /* Aumenta un poco el padding para espacio en el texto */
+  border-radius: 8px;
+  margin: 20px auto;
+  max-width: 85%; /* Puedes reducir el ancho máximo si lo deseas */
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3); /* Sombra más suave */
+  text-align: center;
+}
+.welcome-section h1 {
+  font-weight: 700; /* Destaca el título */
+  letter-spacing: 2px; /* Separación de letras para elegancia */
+}
+
+.titulo-catalogo {
+  color: #000000;
+  font-weight: bold;
+  background-color: rgba(255, 193, 7, 0.735);
+  padding: 2rem;
+  border-radius: 8px;
+}
+
+.titulo-filtros {
+  color: #000000;
+  padding: 2rem;
+  border-radius: 8px;
+}
+
+.filters {
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.filter-item {
+  background-color: #fff;
+  border: none;
+  margin-bottom: 10px;
+  transition: all 0.3s ease;
+  padding: 1rem;
+  border-radius: 8px;
+}
+.filter-item:hover {
+  background-color: rgb(135, 164, 222);
+  color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.filter-item a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: 500;
+  display: block;
+}
+
+.filter-item a:hover {
+  color: #fff;
+}
+
+.body-catalogo {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  background-color: rgba(169, 169, 169, 0.358);
+  display: flex;
+  flex-direction: column;
+}
+
+.card-productos {
+  border-radius: 8px;
+  margin: 0 auto;
+  border: 1px solid #242c38;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.card-productos:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card-body h5 h5 {
+  font-weight: bold;
+}
+
+.btn-block {
+  width: 100%;
+}
