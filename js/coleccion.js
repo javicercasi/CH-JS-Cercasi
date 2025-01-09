@@ -117,9 +117,10 @@ function agregarAlCarrito(producto) {
 
 // Función para mostrar los productos en el carrito
 const contenedorCarrito = document.getElementById("btn-carrito");
+const contenedorComprar = document.getElementById("btn-comprar");
 
 function armarCarrito() {
-    contenedorCarrito.innerHTML = ""; // Limpiar contenido previo
+    contenedorCarrito.innerHTML = "", contenedorComprar.innerHTML = ""; // Limpiar contenido previo
     let carritoRecuperado = JSON.parse(localStorage.getItem('carrito')) || [];
     if (carritoRecuperado.length === 0) {
         contenedorCarrito.innerHTML = "<p class='text-center'>No hay productos en el carrito</p>";
@@ -127,6 +128,15 @@ function armarCarrito() {
     }
 
     carritoRecuperado.forEach(producto => renderizarCarrito(producto));
+
+    // Crear botón para comprar todo el carrito
+    const botonComprar = document.createElement("button");
+    botonComprar.id = "btn-comprar-todo";
+    botonComprar.className = "btn btn-success opacity-75";
+    botonComprar.innerText = "Comprar Todo";
+    botonComprar.onclick = () => comprarCarrito();
+    contenedorComprar.appendChild(botonComprar);
+        
 }
 
 /// Función para renderizar un producto en el carrito
@@ -198,6 +208,24 @@ function eliminarDelCarrito(productID) {
             });
         }
     });
+}
+
+function comprarCarrito() {
+    Swal.fire({
+        title: "¡Compra realizada con éxito!",
+        icon: "success",
+        confirmButtonText: "Aceptar",
+        showConfirmButton: false,
+        timer: 3000,
+    });
+
+    const btnCerrarModal = document.getElementById("btn-close");
+    btnCerrarModal.click(); 
+
+    // Vaciar el carrito después de la compra
+    carrito = [];
+    localStorage.setItem("carrito", JSON.stringify(carrito));
+    armarCarrito();
 }
 
 armarCarrito(); // Mostrar el carrito al cargar la página
